@@ -376,11 +376,10 @@ footer {
     height: 58px;
     border-radius: 50%;
     background: #25D366;
-    color: #fff;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 31px;
     z-index: 999;
     box-shadow: 0 8px 25px rgba(0,0,0,.25);
     animation: pulse 2s infinite;
@@ -391,8 +390,10 @@ footer {
     transform: scale(1.1);
 }
 
-.whatsapp i {
-    line-height: 1;
+.whatsapp svg {
+    width: 34px;
+    height: 34px;
+    fill: white;
 }
 
 
