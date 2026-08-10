@@ -375,19 +375,24 @@ footer {
     width: 58px;
     height: 58px;
     border-radius: 50%;
-    background: #25d366;
+    background: #25D366;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 28px;
+    font-size: 31px;
     z-index: 999;
     box-shadow: 0 8px 25px rgba(0,0,0,.25);
     animation: pulse 2s infinite;
+    transition: .3s;
 }
 
-.whatsapp span {
-    transform: rotate(-25deg);
+.whatsapp:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp i {
+    line-height: 1;
 }
 
 
