@@ -532,3 +532,16 @@ footer {
         grid-column: auto;
     }
 }
+.location {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 15px;
+    color: #aaa;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.location span:first-child {
+    font-size: 16px;
+}
