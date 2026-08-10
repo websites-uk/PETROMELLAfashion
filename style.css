@@ -376,7 +376,7 @@ footer {
     height: 58px;
     border-radius: 50%;
     background: #25D366;
-    color: white;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -393,9 +393,13 @@ footer {
 .whatsapp svg {
     width: 34px;
     height: 34px;
-    fill: white;
+    display: block;
+    transform: translate(1px, 1px);
 }
 
+.whatsapp svg path {
+    fill: #fff;
+}
 
 /* ANIMATIONS */
 
